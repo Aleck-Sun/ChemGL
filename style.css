@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#header {
+  background:rgb(220, 220, 220);
+  height:10vh;
+  width:100vw;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn {
+  margin: 5px;
+  width:200px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+#description {
+  height:15vh;
+  width:100vw;
+  background:rgb(220, 220, 220);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#desc {
+  font-size: 70px;
+}

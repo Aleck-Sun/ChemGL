@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ChemGL</title>
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/science-116/64/chemistry-laboratory-science-chemical-512.png">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <div id="header">
+      <button id="btn" onClick="choose('linear')">Linear</button>
+      <button id="btn" onClick="choose('bent')">Bent</button>
+      <button id="btn" onClick="choose('trigonal')">Trigonal Planar</button>
+      <button id="btn" onClick="choose('tetra')">Tetrahedral</button>
+      <button id="btn" onClick="choose('pyra')">Trigonal Bipyramidal</button>
+      <button id="btn" onClick="choose('octa')">Octahedral</button>
+    </div>
+    <div id="canvas">
+    </div>
+    <div id="description">
+      <h1 id="desc"></h1>
+    </div>
+  </body>
+</html>
